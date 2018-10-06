@@ -1,0 +1,17 @@
+[Unit]
+Description=KMS Service
+After=network.target
+Wants=network.target
+
+[Service]
+#This service run as root
+Type=oneshot
+PIDFile=/var/run/KMS.pid
+ExecStart=/bin/bash /root/kms.sh start
+ExecStop=/bin/bash /root/kms.sh stop
+ExecRestart=/bin/bash /root/kms.sh retart
+RemainAfterExit=yes
+
+[Install]
+WantedBy=multi-user.target
+
