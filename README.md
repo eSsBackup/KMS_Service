@@ -4,7 +4,7 @@
 
 This project aims to make KMS program run as service on Ubuntu, and make service active alongside with system booting up.
 
-This project contains 3 files.
+This project contains 3 files currently.
 
 - kms.service
   - should be put in /etc/systemd/system/, which is also depended on systemd to manage system process
