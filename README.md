@@ -13,3 +13,8 @@ This project contains 3 files currently.
 - one-key-kms-service-debian.sh
   - compile and install kms service on system.
 
+
+
+### Update
+
+- run kms_install.sh, and the script will finish the rest of work automatically. 
