@@ -9,7 +9,7 @@ Type=oneshot
 PIDFile=/var/run/KMS.pid
 ExecStart=/bin/bash /root/kms.sh start
 ExecStop=/bin/bash /root/kms.sh stop
-ExecRestart=/bin/bash /root/kms.sh retart
+ExecRestart=/bin/bash /root/kms.sh restart
 RemainAfterExit=yes
 
 [Install]
